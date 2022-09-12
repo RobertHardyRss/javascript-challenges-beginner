@@ -1,0 +1,19 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+}
+
+a.back-link {
+    float: right;
+}
+
+#output-container {
+    padding: 10px;
+    border: solid 2px grey;
+    background-color: silver;
+    border-radius: 5px;
+}
+
+#output-container:empty:before {
+    content: "Your output will appear here...";
+}
